@@ -1,33 +1,33 @@
-# Week1_Aryan : Python, Linear Algebra & Statistics
-A thorough foundational set of tasks encompassing fundamental data engineering and mathematical concepts needed for deep machine learning implementations may be found in this repository. In order to concentrate on the underlying structural code mechanics, each section stays away from opaque black-box framework logic.
+# Machine Learning Foundations: Python, Linear Algebra & Statistics
 
-## 📁 Repository Structure
-Math assertions, structural visualizations, and full code implementations are all contained in the core Google Colab workspace pipeline.
+This repository hosts a comprehensive foundational suite of tasks covering core data engineering and mathematical principles required for deep machine learning implementations. Every section avoids opaque black-box framework logic to focus on underlying structural code mechanics.
+
 
 ## 🛠️ Detailed Implementations
-### 1. Fundamentals of Python and Defensive Programming
-* **Control Flow Automation:** Clean, boundary-validated conditional pathways were used to formulate numerical evaluation algorithms.
-* **Algorithmic Optimization:** Advanced list comprehensions and sets were used for optimized memory operations, while dynamic string frequencies were processed manually to avoid standard library structures.
-* **Exception Layer Design:** Robust, runtime-safe division handlers were created to raise explicit feedback alerts (`TypeError`) when non-numeric parameters are caught and to securely intercept arithmetic anomalies (`ZeroDivisionError`).
 
-### 2. Using NumPy for Scientific Computing
-* **Multi-Dimensional Transformations:** From initial 1D vectors to highly targeted 3D multi-layered matrices (`2x2x3`), dimensional mutations were performed across structural representations.
-* **Matrix Operations & Invariance Checking:** Element-wise array operations and conventional inner dot-products were assessed, and non-commutative spatial behavior ($P \times Q \neq Q \times P$) was explicitly demonstrated.
+### 1. Python Fundamentals & Defensive Programming
+* **Control Flow Automation:** Formulated numerical evaluation algorithms using clean, boundary-validated conditional pathways.
+* **Algorithmic Optimization:** Processed dynamic string frequencies manually to avoid standard library structures, while utilizing advanced list comprehensions and sets for optimized memory operations.
+* **Exception Layer Design:** Constructed robust, runtime-safe division handlers built to safely intercept arithmetic anomalies (`ZeroDivisionError`) and raise explicit feedback alerts (`TypeError`) when catching non-numeric parameters.
 
-### 3. Pandas Data Wrangling and Feature Profiling
-* **Relational Query Slicing:** Absolute indexing techniques (`.loc` vs. `.iloc`) based on composite masking operations were used to isolate important target parameters.
-* **Production Preprocessing Pipelines:** Developed full missing value recovery tracks using dynamic localized statistics (mean-shift standard approximations for age metrics, and median value column imputations for target outliers).
+### 2. Scientific Computing with NumPy
+* **Multi-Dimensional Transformations:** Conducted dimensional mutations across structural representations from initial 1D vectors up to highly targeted 3D multi-layered matrices (`2x2x3`).
+* **Matrix Operations & Invariance Checking:** Evaluated element-wise array operations alongside traditional inner dot-products, while explicitly demonstrating non-commutative spatial behavior ($P \times Q \neq Q \times P$).
 
-### 4. Dimensionality Reduction and Linear Algebra
-* **Euclidean Norm Calculations:** Used spatial quiver visualizations to compute matrix $L_2$ characteristics and visualize continuous directional coordinates.
-* **Spectral Analysis (Eigenpair Extraction):** linear configurations that have been broken down to produce basic transformation attributes (Eigenvalues & Eigenvectors). created assertion layers that confirm the basic identity vector relation:
-$$A\vec{v} = \lambda\vec{v}$$ Singular Value Decomposition was used in Data Matrix Compression (SVD) to separate arbitrary observation profiles into primary coordinates ($U, \Sigma, V^T$). To mimic structural PCA patterns, low-rank approximations were performed utilizing leading dominating single elements.
+### 3. Data Wrangling & Feature Profiling (Pandas)
+* **Relational Query Slicing:** Isolated key target parameters using absolute indexing approaches (`.loc` vs `.iloc`) based on composite masking operations.
+* **Production Preprocessing Pipelines:** Formulated complete missing value recovery tracks utilizing dynamic localized statistics (median value column imputations for target outliers, and mean-shift standard approximations for age metrics).
 
-### 5. Exploration and Descriptive Statistics
-* **Distribution Characterization:** Complete numerical profiles (Mean, Median, Standard Deviation, and Interquartile Ranges) were computed for continuous fields in order to characterize the distribution.
-* **Visualizations of Density:** To map production variances versus typical normal profiles, kernel density estimates (KDE) were plotted over frequency histograms.
+### 4. Linear Algebra & Dimensionality Reduction
+* **Euclidean Norm Calculations:** Computed matrix $L_2$ properties and plotted continuous directional coordinates utilizing spatial quiver visualizations.
+* **Spectral Analysis (Eigenpair Extraction):** Decomposed linear configurations to yield core transformation properties (Eigenvalues & Eigenvectors). Formulated assertion layers verifying the fundamental identity vector relation:
+  $$A\vec{v} = \lambda\vec{v}$$
+* **Data Matrix Compression (SVD):** Implemented Singular Value Decomposition to break arbitrary observation profiles into principal coordinates ($U, \Sigma, V^T$). Executed low-rank approximations using leading dominant singular elements to replicate structural PCA patterns.
 
-  
+### 5. Descriptive Statistics & Exploration
+* **Distribution Characterization:** Computed complete numerical profiles (Mean, Median, Standard Deviation, and Interquartile Ranges) on continuous fields.
+* **Density Visualizations:** Plotted kernel density estimates (KDE) over frequency histograms to map production variations against standard normal profiles.
+
 ---
 
 ## 💻 Technical Setup & Stack
